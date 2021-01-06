@@ -96,8 +96,11 @@ public class OrderDTO  implements Serializable{
 		return serialVersionUID;
 	}
 
-	
-	
+	public List<ProductDTO> getProducts() {
+		return products;
+	}
+
+
 	
 
 }
